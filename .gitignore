@@ -22,6 +22,7 @@ erl_crash.dump
 # Ignore package tarball (built via "mix hex.build").
 cards-*.tar
 
-#Build files won't go to GitHub
-.elixir_ls/*
+# Mac Specific Files
+*.DS_Store
+*elixir_ls/*
 
