@@ -1,12 +1,12 @@
 defmodule Cards do
+
   @moduledoc """
-  Creates a deck of cards and allows users to shuffle the deck.
+  Creates a deck of cards and allows users to shuffle and deal out cards to users. There is also a save and load functions for decks that you create
   """
 
   @doc """
 
-
-  ## Examples
+  creates an entire deck of cards by using a for loop
 
   """
   def create_deck do
